@@ -1,0 +1,30 @@
+:root {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: Helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 58, 58);
+}
+
+
+
+#pages p {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#navbar img {
+    width: 6em;
+}
