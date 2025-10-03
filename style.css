@@ -9,21 +9,16 @@ body {
     padding: 0;
 }
 
-#navbar {
-    padding-right: 10%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(58, 58, 58);
+.pages {
+    text-align: right;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    direction: rtl;
+    padding: 0 10%;
+    background-color: rgb(58, 58, 58); */
 }
 
 
-
-#pages p {
-    display: flex;
-    justify-content: space-between;
-
-
-}
 
 #navbar img {
     width: 6em;
