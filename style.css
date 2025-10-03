@@ -4,22 +4,31 @@
     font-family: Helvetica;
 }
 
+/* Padding around entire page */
 body {
     margin: 0;
     padding: 0;
 }
 
-.pages {
+#navbar img {
+    width: 6em; 
+    /* height: 4.5em;  fix spacing between left wall and logo */
+}
+
+/* Class for pages */
+.pages{
+    background-color: rgb(58, 58, 58);
     text-align: right;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
-    direction: rtl;
-    padding: 0 10%;
-    background-color: rgb(58, 58, 58);
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 5% 0 0;
+
+}
+
+#introPage {
+    padding: 0 5%;
+    font-size: 2vw;
+    width: 47vw
 }
 
 
-
-#navbar img {
-    width: 6em;
-}
